@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>LoginEMP</title>
+<link rel="stylesheet" type="text/css" href="../loginstyle.css">
+</head>
+<body>
+ 	<div class="login">  
+        <img id="imglogo" src="../BobsonandSons.png" alt="Bobsons logo"> 
+            <form class="form-signin" action="/Project1/api/login" method="post">
+                <div>                
+                    <input id="email"  name="email"  type="text" class="form-control"placeholder="Email@example.com" required="required">
+                </div>
+
+                <div>                
+                    <input id="password" name="password" type="password" class="form-control" placeholder="Password" required="required">
+                </div>
+
+                <div>
+                	<p id = "hidden"></p>
+                    <button id="loginButton" class="btn-primary" type="submit">Login</button>
+                </div>
+          </form>
+    </div>
+</body>
+</html>

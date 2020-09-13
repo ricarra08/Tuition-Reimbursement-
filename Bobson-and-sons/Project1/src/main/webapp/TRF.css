@@ -1,0 +1,75 @@
+@charset "ISO-8859-1";
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+html {
+    background-image: linear-gradient(
+      115deg,
+      rgba(66, 208, 255, 0.8),
+      rgba(40, 92, 230, 0.7)
+    ), url(ihttps://wp-media.petersons.com/blog/wp-content/uploads/2019/06/13104106/iStock-914314318.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+#description {
+    text-align: center;
+}
+#survey-form {
+    border-radius: 5px;
+    background-color: #24195A;
+    padding: 20px;
+    opacity: 0.7;
+    text-align: left;
+    padding: 5px 400px;
+    box-sizing: border-box;
+    background-size: cover;
+}
+#role{
+    width: 520px;
+    padding: 10px 5px;
+}
+input[type="text"]{
+    width: 500px;
+    padding: 10px 5px;
+}
+input[type="number"]{
+    padding: 10px 5px;
+}
+input[type="date"]{
+    padding: 5px 5px;
+}
+input[type="time"]{
+    padding: 5px 5px;
+}
+#state{
+   padding: 5px 5px;
+}
+#grade{
+   padding: 7px 7px;
+}
+
+#button1 {
+    width: 520px;
+    padding: 10px 5px;
+    cursor: pointer;
+    background-color: #42f9ff;
+}
+input[type="radio"],[type="checkbox"] {
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5);
+}
+.comment {
+    width: 500px;
+    height: 100px;
+    padding: 10px;
+}
+#email {
+   padding: 7px 7px;
+}
